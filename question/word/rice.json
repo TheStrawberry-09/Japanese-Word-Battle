@@ -1,0 +1,38 @@
+[
+    {
+        "WordEN":"Rice",
+        "WordJP":"ごはん",
+        "Spelling":"ごはん",
+        "Romaji":"Gohan"
+    },
+    {
+        "WordEN":"husked grains of rice",
+        "WordJP":"米",
+        "Spelling":"こめ",
+        "Romaji":"Kome"
+    },
+    {
+        "WordEN":"Glutinous rice",
+        "WordJP":"もち米",
+        "Spelling":"もちこめ",
+        "Romaji":"Mochi kome"
+    },
+    {
+        "WordEN":"Mochi",
+        "WordJP":"餅",
+        "Spelling":"もち",
+        "Romaji":"Mochi"
+    },
+    {
+        "WordEN":"Chicken eggs",
+        "WordJP":"鶏卵",
+        "Spelling":"けいらん",
+        "Romaji":"Keiran"
+    },
+    {
+        "WordEN":"Eggs",
+        "WordJP":"たまご",
+        "Spelling":"たまご",
+        "Romaji":"Tama go"
+    }
+]

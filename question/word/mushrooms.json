@@ -1,0 +1,38 @@
+[
+    {
+        "WordEN":"Mushrooms",
+        "WordJP":"きのこ",
+        "Spelling":"きのこ",
+        "Romaji":"Kinoko"
+    },
+    {
+        "WordEN":"Shiitake mushroom",
+        "WordJP":"しいたけ",
+        "Spelling":"しいたけ",
+        "Romaji":"Shītake"
+    },
+    {
+        "WordEN":"Shimeji mushroom",
+        "WordJP":"しめじ",
+        "Spelling":"しめじ",
+        "Romaji":"Shimeji"
+    },
+    {
+        "WordEN":"King oyster mushrooms",
+        "WordJP":"エリンギ",
+        "Spelling":"エリンギ",
+        "Romaji":"Eringi"
+    },
+    {
+        "WordEN":"Enoki mushroom",
+        "WordJP":"えのきたけ",
+        "Spelling":"えのきたけ",
+        "Romaji":"E noki take"
+    },
+    {
+        "WordEN":"Maitake mushroom",
+        "WordJP":"まいたけ",
+        "Spelling":"まいたけ",
+        "Romaji":"Maita ke"
+    }
+]

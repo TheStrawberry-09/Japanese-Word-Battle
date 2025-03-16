@@ -1,0 +1,44 @@
+[
+    {
+        "WordEN":"Noodles",
+        "WordJP":"麺類",
+        "Spelling":"めんるい",
+        "Romaji":"Menrui"
+    },
+    {
+        "WordEN":"Udon",
+        "WordJP":"うどん",
+        "Spelling":"うどん",
+        "Romaji":"Udon"
+    },
+    {
+        "WordEN":"buckwheat",
+        "WordJP":"そば",
+        "Spelling":"そば",
+        "Romaji":"Soba"
+    },
+    {
+        "WordEN":"Somen",
+        "WordJP":"そうめん",
+        "Spelling":"そうめん",
+        "Romaji":"Sō men"
+    },
+    {
+        "WordEN":"Chinese noodles",
+        "WordJP":"中華麺",
+        "Spelling":"そば",
+        "Romaji":"Chūka men"
+    },
+    {
+        "WordEN":"Pasta",
+        "WordJP":"パスタ",
+        "Spelling":"パスタ",
+        "Romaji":"Pasuta"
+    },
+    {
+        "WordEN":"Spaghetti",
+        "WordJP":"スパゲティ",
+        "Spelling":"スパゲティ",
+        "Romaji":"Supageti"
+    }
+]

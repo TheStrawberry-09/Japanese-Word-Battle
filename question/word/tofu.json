@@ -1,0 +1,26 @@
+[
+    {
+        "WordEN":"Tofu",
+        "WordJP":"豆腐",
+        "Spelling":"とうふ",
+        "Romaji":"Tōfu"
+    },
+    {
+        "WordEN":"Fried tofu",
+        "WordJP":"油揚げ",
+        "Spelling":"あぶらあげ",
+        "Romaji":"Aburaage"
+    },
+    {
+        "WordEN":"Deep-fried tofu",
+        "WordJP":"厚揚げ",
+        "Spelling":"あつあげ",
+        "Romaji":"Atsu-age"
+    },
+    {
+        "WordEN":"Natto",
+        "WordJP":"納豆",
+        "Spelling":"なっとう",
+        "Romaji":"Nattō"
+    }
+]

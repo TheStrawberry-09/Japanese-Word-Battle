@@ -1,0 +1,94 @@
+.scoreBoard {
+  height: 100%;
+}
+
+.score-board-box {
+  height: calc(100% - 153px);
+  overflow: auto;
+}
+
+/* width */
+.score-board-box::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.score-board-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.score-board-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.score-board-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scoreBoard_table {
+  margin: auto;
+  width: 100%;
+}
+
+.score-board-head {
+  display: none;
+}
+
+.table-contain-1 {
+  width: 5%;
+  padding: 10px 0px 10px 0px;
+  font-size: 2vw;
+}
+
+.table-contain-2 {
+  width: 15%;
+  padding: 10px 0px 10px 0px;
+}
+
+.table-contain-3 {
+  width: 60%;
+  padding: 10px 0px 10px 0px;
+  font-size: 2vw;
+}
+
+.table-contain-4 {
+  width: 20%;
+  padding: 10px 0px 10px 0px;
+  font-size: 2vw;
+}
+
+.line {
+  border-top: 3px solid black;
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+}
+
+.player-score-box {
+  height: 2vw;
+}
+
+.player-table-contain-1 {
+  width: 5%;
+  padding: 20px 0px 20px 0px;
+  font-size: 2vw;
+}
+
+.player-table-contain-2 {
+  width: 15%;
+  padding: 20px 0px 20px 0px;
+}
+
+.player-table-contain-3 {
+  width: 60%;
+  padding: 20px 0px 20px 0px;
+  font-size: 2vw;
+}
+
+.player-table-contain-4 {
+  width: 20%;
+  padding: 20px 0px 20px 0px;
+  font-size: 2vw;
+}

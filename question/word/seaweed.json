@@ -1,0 +1,32 @@
+[
+    {
+        "WordEN":"Seaweed",
+        "WordJP":"海苔",
+        "Spelling":"のり",
+        "Romaji":"nori"
+    },
+    {
+        "WordEN":"Kelp",
+        "WordJP":"昆布",
+        "Spelling":"こんぶ",
+        "Romaji":"Konbu"
+    },
+    {
+        "WordEN":"Wakame seaweed",
+        "WordJP":"わかめ",
+        "Spelling":"わかめ",
+        "Romaji":"Wakame"
+    },
+    {
+        "WordEN":"Wheat bran",
+        "WordJP":"麩",
+        "Spelling":"ふすま",
+        "Romaji":"Fusuma"
+    },
+    {
+        "WordEN":"Vermicelli",
+        "WordJP":"春雨",
+        "Spelling":"しゅんう",
+        "Romaji":"Shun'u"
+    }
+]

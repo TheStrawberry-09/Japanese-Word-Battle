@@ -1,0 +1,41 @@
+.loading-text {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.char-walking {
+    border-radius: 0;
+    position: absolute;
+    left: 30%;
+    height: 30%;
+    bottom: 32%;
+}
+
+#walking-bg {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/japanese-word-battle.appspot.com/o/img%2Fgame_assets%2FBG_animation.png?alt=media&token=0ffe2448-35af-4ddb-8c79-8c51cb0691bb");
+    background-size: auto 130%;
+    transition: 3s;
+    transition-timing-function: linear;
+}
+
+#bus-bg {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/japanese-word-battle.appspot.com/o/animation%2Fbus.gif?alt=media&token=d7db235b-8b80-43d7-b9d2-7aaa409fef7e");
+    background-size: 100% auto;
+    background-position: left bottom;
+}
+
+#train-bg {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/japanese-word-battle.appspot.com/o/animation%2Ftrain.gif?alt=media&token=7d3ecba9-d459-46f5-b1ea-825f44e0893f");
+    background-size: 100% auto;
+    background-position: left bottom;
+}

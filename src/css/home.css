@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p, h1, h2, h3, h4, h5, td, th, button {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mainContainer {
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+
+.main-container-box {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/japanese-word-battle.appspot.com/o/img%2FMain%20Menu%20Background.jpg?alt=media&token=bd28a35f-97a2-4c3b-89b2-291259fe92c3");
+    background-size: 100% auto;
+    transition: background-image 1s ease-in-out;
+    /* เพิ่ม transition */
+    transition-delay: 2s;
+}
+
+body {
+    background: #7FDBDA;
+}
+
+.center-content {
+    background-color: #aee498da;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+}
+
+.change-page-button {
+    background-color: #EDE682;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.change-page-button:hover {
+    background-color: #e4d942;
+}
+
+.change-page-button-text {
+    font-size: 2.5vw;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logout-button {
+    background-color: #D96464;
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: #cc3232;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "WordEN":"Meat",
+        "WordJP":"肉",
+        "Spelling":"にく",
+        "Romaji":"Niku"
+    },
+    {
+        "WordEN":"Beef",
+        "WordJP":"牛肉",
+        "Spelling":"ぎゅうにく",
+        "Romaji":"Gyūniku"
+    },
+    {
+        "WordEN":"Chicken meat",
+        "WordJP":"鶏肉",
+        "Spelling":"とりにく",
+        "Romaji":"Toriniku"
+    },
+    {
+        "WordEN":"Pork",
+        "WordJP":"豚肉",
+        "Spelling":"ぶたにく",
+        "Romaji":"Butaniku"
+    },
+    {
+        "WordEN":"Sausage",
+        "WordJP":"ソーセージ",
+        "Spelling":"ソーセージ",
+        "Romaji":"Sōsēji"
+    },
+    {
+        "WordEN":"Ham",
+        "WordJP":"ハム",
+        "Spelling":"ハム",
+        "Romaji":"Hamu"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "WordEN":"Milk",
+        "WordJP":"ミルク",
+        "Spelling":"ミルク",
+        "Romaji":"ミルク"
+    },
+    {
+        "WordEN":"Milk",
+        "WordJP":"牛乳",
+        "Spelling":"ぎゅうにゅう",
+        "Romaji":"Gyūnyū"
+    },
+    {
+        "WordEN":"Cheese",
+        "WordJP":"チーズ",
+        "Spelling":"チーズ",
+        "Romaji":"Chīzu"
+    },
+    {
+        "WordEN":"Fresh cream",
+        "WordJP":"生クリーム",
+        "Spelling":"生クリーム",
+        "Romaji":"Nama kurīmu"
+    },
+    {
+        "WordEN":"yogurt",
+        "WordJP":"ヨーグルト",
+        "Spelling":"ヨーグルト",
+        "Romaji":"Yōguruto"
+    }
+]
