@@ -3,9 +3,9 @@
 # dependencies
 /node_modules
 /api/servicekey
+.env
 /.pnp
 .pnp.js
-.env
 
 # testing
 /coverage

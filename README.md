@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+- npm install firebase-admin
+- npm install express
+- npm i react-scripts
+- npm install --save cors
+- npm install reactjs-popup --save
+
 ## Available Scripts
 
 In the project directory, you can run:
