@@ -30,7 +30,6 @@ function App() {
     GetStampdata(setStampData)
     GetScoreBoarddata(setScoreboardData)
     GetProfiledata(setProfileData,userdefine.uid)
-
     }
   }, [userdefine]);
 
