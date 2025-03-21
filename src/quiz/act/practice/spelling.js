@@ -22,6 +22,11 @@ function Spelling({
       text: "i",
     },
   ]);
+
+  var audio = document.getElementById("player");
+  if(audio){
+    audio.volume = 0.5
+  }
   const handleOptionClick = (option) => {
     PlaySound("button");
     setSelectedOption(option); // อัปเดตว่าเลือกตัวไหน
