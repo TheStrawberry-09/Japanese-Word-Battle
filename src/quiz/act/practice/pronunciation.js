@@ -26,10 +26,12 @@ function Pronunciation({
     PlaySound("button");
     setSelectedOption(option);
     const audio = new Audio(option.audio);
+    audio.volume = 0.5;
     audio.play();
   };
   const handleClickAudio = () => {
     const audio = new Audio(game_data.audio);
+    audio.volume = 0.5;
     audio.play(); //เล่นเสียง
   };
   useEffect(() => {

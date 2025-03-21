@@ -26,10 +26,12 @@ function Word({
     PlaySound("button");
     setSelectedOption(option); // อัปเดตว่าเลือกตัวไหน
     const audio = new Audio(option.audio);
+    audio.volume = 0.5;
     audio.play();
   };
   const handleplaySound = () => {
     const audio = new Audio(game_data.audio);
+    audio.volume = 0.5;
     audio.play();
   };
   useEffect(() => {
