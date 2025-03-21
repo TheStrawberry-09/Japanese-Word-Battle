@@ -30,6 +30,8 @@ function Game_ticketBooth({
     randomArray(game_data.options, setshuffleGame_data);
   }, [game_data]);
   const handleClick = (answer) => {
+    const incorAniHead = document.getElementById("clock-text-head-id");
+    const incorAniTime = document.getElementById("clock-text-time-id");
     PlaySound("button");
     setshowBar(true);
     if (answer.isCorrect) {
@@ -38,6 +40,12 @@ function Game_ticketBooth({
       setshowGreenBar(true);
     } else {
       PlaySound("incorrect");
+      incorAniHead.style.color = "red";
+      incorAniTime.style.color = "red";
+      setTimeout(() => {
+        incorAniHead.style.color = "white";
+        incorAniTime.style.color = "white";
+      }, 500);
       setlife(life_act - 1, userdefine.uid);
       setlife_act(life_act - 1);
       if (life_act - 1 <= 0) {

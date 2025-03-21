@@ -22,7 +22,6 @@ function Proflie({ userData }) {
     return stampPoint;
   };
 
-
   const handleClose = () => {
     PlaySound("button");
     setShowPopup(false);
@@ -90,7 +89,7 @@ function Proflie({ userData }) {
                   value={searchValue}
                   onChange={(e) => setSearchValue(e.target.value)}
                 />
-                <h4 className="profile-popup-head-text">กรองชื่อที่ต้องการ</h4>
+                <h4 className="profile-popup-head-text">กรอกชื่อที่ต้องการ</h4>
               </div>
               <button className="confirm-button" onClick={handleSearch}>
                 <h5 className="profile-popup-sub-text">ตกลง</h5>

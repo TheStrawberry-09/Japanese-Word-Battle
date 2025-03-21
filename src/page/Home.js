@@ -127,7 +127,7 @@ function Home({
           className="change-page-button"
           onClick={() => changePage("Proflie")}
         >
-          <h2 className="change-page-button-text">Proflie</h2>
+          <h2 className="change-page-button-text">Profile</h2>
         </button>
         <button className="change-page-button logout-button">
           <LogoutUser setIsLogin={setIsLogin} setuserdefine={setuserdefine} />

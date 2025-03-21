@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import React, { useEffect, useState } from "react";
+import NumberFlow from "@number-flow/react";
 import ActSystem from "../act_system";
 import Sign from "./game_sign";
 import Station from "./game_station";
@@ -10,6 +11,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import PopupGameover from "../popup_gameover";
 import getlife from "../../../api/getLife";
+
 function Game_system() {
   const [load_act, setload_act] = useState(false);
   const [gameover_act, setgameover_act] = useState(false);
@@ -62,8 +64,13 @@ function Game_system() {
           <div className="time-box">
             <div className="clock-frame">
               <div className="clock-text">
-                <h4>Time Left</h4>
-                <h1>0{life_act}:00</h1>
+                <h4 className="clock-text-head" id="clock-text-head-id">
+                  Time Left
+                </h4>
+                <h1 className="clock-text-time" id="clock-text-time-id">
+                  0<NumberFlow value={life_act} />
+                  :00
+                </h1>
               </div>
             </div>
           </div>
