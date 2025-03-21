@@ -18,16 +18,16 @@ function ButtonPlaySound(inputType) {
   if (inputType === "button") {
     buttonSound.play();
   } else if (inputType === "enter") {
-    enterStage.volume = 0.5;
+    enterStage.volume = 0.3;
     enterStage.play();
   } else if (inputType === "correct") {
-    correctAnswer.volume = 0.5;
+    correctAnswer.volume = 0.3;
     correctAnswer.play();
   } else if (inputType === "incorrect") {
     incorrectAnswer.volume = 0.3;
     incorrectAnswer.play();
   } else if (inputType === "stagefail") {
-    stageFail.volume = 0.5;
+    stageFail.volume = 0.3;
     stageFail.play();
   }
 }
