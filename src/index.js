@@ -11,7 +11,6 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-document.title = "JAPANESE WORD BATTLE";
 
 root.render(
   <>
