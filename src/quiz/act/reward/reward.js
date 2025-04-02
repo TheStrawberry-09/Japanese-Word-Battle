@@ -26,30 +26,34 @@ function Reward() {
   //GetReward(setshowPopup,userdefine.uid)
   var stamp_status = "trim";
   var stamp_image = quizData.reward.trim_stamp;
+  var audio = document.getElementById("player");
+  if (audio) {
+    audio.volume = 0.3;
+  }
   const images = [
     {
       original: quizData.reward.image_gallery_1,
       thumbnail: quizData.reward.image_gallery_1,
-      thumbnailWidth:"150px",
-      thumbnailHeight:"75px",
+      thumbnailWidth: "150px",
+      thumbnailHeight: "75px",
     },
     {
       original: quizData.reward.image_gallery_2,
       thumbnail: quizData.reward.image_gallery_2,
-      thumbnailWidth:"150px",
-      thumbnailHeight:"75px",
+      thumbnailWidth: "150px",
+      thumbnailHeight: "75px",
     },
     {
       original: quizData.reward.image_gallery_3,
       thumbnail: quizData.reward.image_gallery_3,
-      thumbnailWidth:"150px",
-      thumbnailHeight:"75px",
+      thumbnailWidth: "150px",
+      thumbnailHeight: "75px",
     },
     {
       original: quizData.reward.image_gallery_4,
       thumbnail: quizData.reward.image_gallery_4,
-      thumbnailWidth:"150px",
-      thumbnailHeight:"75px",
+      thumbnailWidth: "150px",
+      thumbnailHeight: "75px",
     },
   ];
   const handlenext = async (event) => {
@@ -101,18 +105,18 @@ function Reward() {
     <Container>
       <Row>
         <Col>
-        <div className="choice-background-image-box">
-        <img
-          src={quizData.reward.image_gallery_2}
-          alt="Sign-Background-Image"
-          className="choice-background-image sign-bg-image blur-image"
-        />
-      </div>
+          <div className="choice-background-image-box">
+            <img
+              src={quizData.reward.image_gallery_2}
+              alt="Sign-Background-Image"
+              className="choice-background-image sign-bg-image blur-image"
+            />
+          </div>
           {showPopup ? <PoppuStamp stamp_image={stamp_image} /> : <div></div>}
           <div className="story-image-gallery">
             <ImageGallery items={images} />
           </div>
-      
+
           <iframe
             src="https://firebasestorage.googleapis.com/v0/b/japanese-word-battle.appspot.com/o/audio%2FSound%20Effect%2F250-milliseconds-of-silence.mp3?alt=media&token=0e9184ac-c977-46e3-b009-36349f905090"
             allow="autoplay"

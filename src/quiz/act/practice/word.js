@@ -24,19 +24,19 @@ function Word({
   ]);
 
   var audio = document.getElementById("player");
-  if(audio){
-    audio.volume = 0.5
+  if (audio) {
+    audio.volume = 0.7;
   }
   const handleOptionClick = (option) => {
     PlaySound("button");
     setSelectedOption(option); // อัปเดตว่าเลือกตัวไหน
     const audio = new Audio(option.audio);
-    audio.volume = 0.5;
+    audio.volume = 0.7;
     audio.play();
   };
   const handleplaySound = () => {
     const audio = new Audio(game_data.audio);
-    audio.volume = 0.5;
+    audio.volume = 0.7;
     audio.play();
   };
   useEffect(() => {

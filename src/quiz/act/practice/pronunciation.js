@@ -22,21 +22,21 @@ function Pronunciation({
       text: "i",
     },
   ]);
-  var audio = document.getElementById("player");
-  if(audio){
-    audio.volume = 0.5
-  }
 
+  var audio = document.getElementById("player");
+  if (audio) {
+    audio.volume = 0.7;
+  }
   const handleOptionClick = (option) => {
     PlaySound("button");
     setSelectedOption(option);
     const audio = new Audio(option.audio);
-    audio.volume = 0.5;
+    audio.volume = 0.7;
     audio.play();
   };
   const handleClickAudio = () => {
     const audio = new Audio(game_data.audio);
-    audio.volume = 0.5;
+    audio.volume = 0.7;
     audio.play(); //เล่นเสียง
   };
   useEffect(() => {
